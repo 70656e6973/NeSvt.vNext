@@ -8,16 +8,17 @@
     <title>NE-SVT</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css\bootstrap.min.css" rel="stylesheet">
+    <link href="..\css\bootstrap.min.css" rel="stylesheet">
 
   <style>
         body {
         padding-top: 3.5rem;
+        background-color: #e9ecef;
         }
 
 
                 .jumbotron {
-        background-image: url("images/BackGround.png");
+        background-image: url("../images/BackGround.png");
         background-size: cover;
         height: 100%;
         max-height: 300px
@@ -27,7 +28,10 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">NE-SVT</a>
+      <a class="navbar-brand" href="../template2.html">
+          <img src="../images/logo_icon.jpg" width="30" height="30" alt="">
+        </a>
+      <a class="navbar-brand" href="../template2.html">NE-SVT</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -80,39 +84,18 @@
       </div>
     </nav>
 
-    <main role="main">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-
+    <main role="main" class="container">
+      <h2 class="mt-5">What is Autocross?</h1>
       
-      <div class="jumbotron">
-        <div class="container">
-          <h3 class="display-4" style="color:white">Welcome to NE-SVT Autocross!</h1>
-          <p></p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-        </div>
-      </div>
-    
+      <p class="lead">This video gives a very good over view of the sport of autocross and is about 9 minutes long.</p>
+      <iframe src="http://player.vimeo.com/video/12067348" width="600" height="338" frameborder="0" align="middle" style="margin-top:10px;margin-bottom:20px;"></iframe>
+      <p class="lead">Part of what makes autocross so inexpensive is the shared work load. Each person is assigned a work station. You will most likely be assigned a station on the course where you will reset hit cones, call them in and flag cars in case of an issue. </p>
+      <p class="lead">Each person works for one session and drives the other. We have 4 of these sessions and your participation in the working portion is vital to the operation of the event. If you do not show up to work your station then the event stops until we can find you or a replacement.  </p>
+      <p class="lead">This is the golden rule of autocross, you must work your assignment, leaving early without cause will ensure that you are not welcomed back at our or anyone else's events.</p>
+      
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-8">
-            <h2>News</h2>
-            <p>News and stuff here </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>About</h2>
-            <p>About us and stuff words</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-          </div>
-        </div>
 
-        <hr>
-
-      </div> <!-- /container -->
-
+      </p>
     </main>
 
     <footer class="container">
@@ -122,9 +105,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js\jquery-3.3.1.slim.min.js"></script>
-    <script src="js\popper.min.js"></script>
-    <script src="js\bootstrap.bundle.min.js"></script>  
+    <script src="..\js\jquery-3.3.1.slim.min.js"></script>
+    <script src="..\js\popper.min.js"></script>
+    <script src="..\js\bootstrap.bundle.min.js"></script>  
   
 
 </body></html>
